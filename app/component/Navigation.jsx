@@ -3,7 +3,7 @@ import Link from "next/link";
 function Navigation(){
 
     return(
-        <header className="grid grid-cols-2">
+        <header className="grid grid-cols-2 font-work-sans">
 
         <div>
 
@@ -13,6 +13,12 @@ function Navigation(){
                 </li>
                 <li>
                     <Link href="/about">About</Link>
+                </li>
+                <li>
+                    <Link href="/clientcomponent">ClientComponent</Link>
+                </li>
+                <li>
+                    <Link href="/servercomponent">ServerComponent</Link>
                 </li>
                 <li>
                     <Link href="/contact">Contact</Link>

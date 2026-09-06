@@ -38,6 +38,7 @@ export default function RootLayout({children}) {
       <body className={`${roboto.variable} ${workSans.variable}`}>
 
         {children}
+       
         </body>
     </html>
   );

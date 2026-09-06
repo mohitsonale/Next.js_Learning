@@ -8,6 +8,7 @@ async function blog(props){
         <>
 
         <h1>E-Commerce</h1>
+        <h1>Slug:{slug}</h1>
         
         </>
     )

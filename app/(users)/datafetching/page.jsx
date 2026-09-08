@@ -8,4 +8,4 @@ function Datafetching(){
     )
 }
 
-export default Datafetching;
+export default Datafetching;    

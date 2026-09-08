@@ -8,7 +8,7 @@ export async function generateStaticParams(){
     return(
         employee.map((emp)=>(
 
-            {id:emp.emp_id.toString(),}
+            {id:emp.emp_id.toString(),}  // because emp_id is integer so we have to convert it into string otherwise it will give error
         
         ))
     )
@@ -29,6 +29,10 @@ async function employeeid(props){
 
     return(
         <>
+
+
+
+        
         <h1>Employee Details</h1>
         <p>ID:{employee.emp_id}</p>
         <p>Employee Name:{employee.fname}</p>

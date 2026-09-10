@@ -21,6 +21,9 @@ function Navigation(){
                     <Link href="/servercomponent">ServerComponent</Link>
                 </li>
                 <li>
+                    <Link href="/signup">Sign up</Link>
+                </li>
+                <li>
                     <Link href="/contact">Contact</Link>
                 </li>
                 <li>
